@@ -1,4 +1,5 @@
-daysOfWeek = {
+def funkcja(x):
+    daysofweek = {
         "1": "Poniedzialek",
         "2": "Wtorek",
         "3": "Środa",
@@ -8,5 +9,8 @@ daysOfWeek = {
         "7": "Niedziela"
         }
 
+    return daysofweek[x]
+
+
 a = input("\033[92mPodaj numer dnia tygodnia, a \033[93mprogram zwroci jego nazwe!: ")
-print(daysOfWeek[a])
+print(funkcja(a))
